@@ -3,7 +3,7 @@ let subs: number | string = '1M'; // union  | no ya string koi bhi
 //  apiRequestStatus = 'done' //error Type '"done"' is not assignable to type '"pending" | "success" | "error"'
 apiRequestStatus = 'success';
 
-// any -> avoid how much you can
+// any -> avoid how much you can.
 const orders = ['12','20','28','30'];
 // both are same
 // let currentOrder: any; //any 
