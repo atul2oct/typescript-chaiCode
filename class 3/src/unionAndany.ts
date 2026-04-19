@@ -8,7 +8,7 @@ const orders = ['12','20','28','30'];
 // both are same
 // let currentOrder: any; //any 
 // let currentOrder; //any 
-let currentOrder: string | undefined;//undeinfe is edge case
+let currentOrder: string | undefined;//undefine is edge case
 for(let order of orders){
     if(order === '28'){
         currentOrder = order;
