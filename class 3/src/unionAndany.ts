@@ -16,5 +16,5 @@ for(let order of orders){
     }
 }
 
-// currentOrder = 42; //yeh any hai isliye koi bhi value aa gai but we want only string so currenOrder we type define to string.
+// currentOrder = 42; //yeh any hai isliye koi bhi value aa gai but we want only string so currenOrder we type define to string
 console.log(currentOrder)
