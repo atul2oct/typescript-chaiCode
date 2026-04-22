@@ -1,5 +1,5 @@
 let subs: number | string = '1M'; // union  | no ya string koi bhi
- let apiRequestStatus: 'pending' | 'success' | 'error' = 'pending'; //iski value yeh 3 option k alawa hoi hi nhi sakti hai
+ let apiRequestStatus: 'pending' | 'success' | 'error' = 'pending'; //iski value yeh 3 option k alawa hoi hi nhi sakti hai.
 //  apiRequestStatus = 'done' //error Type '"done"' is not assignable to type '"pending" | "success" | "error"'
 apiRequestStatus = 'success';
 
