@@ -1,9 +1,9 @@
-let subs: number | string = '1M'; // union  | no ya string koi bhi
- let apiRequestStatus: 'pending' | 'success' | 'error' = 'pending'; //iski value yeh 3 option k alawa hoi hi nhi sakti hai
+let subs: number | string = '1M'; // union  | no ya string koi bhi.
+ let apiRequestStatus: 'pending' | 'success' | 'error' = 'pending'; //iski value yeh 3 option k alawa hoi hi nhi sakti hai.
 //  apiRequestStatus = 'done' //error Type '"done"' is not assignable to type '"pending" | "success" | "error"'
 apiRequestStatus = 'success';
 
-// any -> avoid how much you can
+// any -> avoid how much you can.
 const orders = ['12','20','28','30'];
 // both are same
 // let currentOrder: any; //any 
@@ -16,5 +16,5 @@ for(let order of orders){
     }
 }
 
-// currentOrder = 42; //yeh any hai isliye koi bhi value aa gai but we want only string so currenOrder we type define to string
+// currentOrder = 42; //yeh any hai isliye koi bhi value aa gai but we want only string so currenOrder we type define to string.
 console.log(currentOrder)
